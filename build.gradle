@@ -1,0 +1,24 @@
+apply plugin: 'android-library'
+
+android {
+    compileSdkVersion 17
+
+    sourceSets {
+        main {
+            manifest.srcFile 'library/AndroidManifest.xml'
+            java.srcDirs = ['library/src']
+            resources.srcDirs = ['library/src']
+            aild.srcDirs = ['library/src']
+            renderscript.srcDirs = ['library/src']
+            res.srcDirs = ['library/res']
+            assets.srcDirs = ['library/assets']
+        }
+
+        instrumentTest.setRoot('library/test')
+    }
+}
+
+dependencies {
+    compile project(':lib:ActionBarSherlock')
+    compile files('../ActionBarSherlock/library/libs/android-support-v4-r12.jar')
+}

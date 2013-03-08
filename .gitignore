@@ -2,5 +2,6 @@
 target/
 bin/
 gen/
+build/
 local.properties
 proguard-project.txt

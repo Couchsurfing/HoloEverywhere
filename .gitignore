@@ -5,3 +5,6 @@ gen/
 build/
 local.properties
 proguard-project.txt
+.project
+.classpath
+.settings/

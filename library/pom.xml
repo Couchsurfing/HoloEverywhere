@@ -3,12 +3,12 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<artifactId>library</artifactId>
+	<artifactId>holoeverywhere</artifactId>
 	<name>HoloEverywhere Library</name>
 	<packaging>apklib</packaging>
 
 	<parent>
-		<groupId>org.holoeverywhere</groupId>
+		<groupId>com.couchsurfing.holoeverywhere</groupId>
 		<artifactId>parent</artifactId>
 		<version>1.5.1-SNAPSHOT</version>
 		<relativePath>../pom.xml</relativePath>
@@ -27,10 +27,6 @@
 			<type>apklib</type>
 		</dependency>
 
-		<dependency>
-			<groupId>com.google.android</groupId>
-			<artifactId>support-v4</artifactId>
-		</dependency>
 	</dependencies>
 
 
